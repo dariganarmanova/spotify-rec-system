@@ -1,0 +1,73 @@
+.authContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.containerAuth {
+    width:300px;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color:lavender;
+}
+
+.containerAuth input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -10px;
+    border: 1px solid  #ccc;
+    border-radius: 4px;
+}
+
+.containerAuth button { 
+    width: 30%;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color: aliceblue;
+
+}
+
+.textMain {
+    text-align: center;
+    font-family: 'Playfair Display', serif;;
+    font-weight: normal;
+}
+
+.containerAuthLog { 
+    width: 300px;
+    margin-left: 50px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:lavender;
+    box-sizing: border-box;
+}
+
+.containerAuthLog input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid  #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.containerAuthLog button {
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.textMainLog {
+    font-weight: normal;
+    font-family: sans-serif;
+}
